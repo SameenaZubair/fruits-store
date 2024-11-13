@@ -39,7 +39,7 @@ function App() {
         
         ),
         {
-            basename: '/fruits-store/',
+            basename: '/fruits-store',
         }
     );
 

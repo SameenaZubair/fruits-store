@@ -58,7 +58,13 @@ const Navbar = () => {
 
           {/* Mobile Hamburger Menu */}
           <div className='md:hidden'>
-            <MdMenu className='text-4xl' />
+          <Link to="/cart">
+            <button
+                className="text-2xl hover:bg-primary hover:text-white rounded-full p-2 duration-200"
+            >    
+                <IoCartOutline /> {CartSelect.length}
+            </button>
+        </Link>
           </div>
 
           {/* Mobile Menu */}
