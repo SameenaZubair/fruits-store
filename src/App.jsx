@@ -37,7 +37,10 @@ function App() {
                 <Route path= "/order-Confirmation" element={<OrderConfirmation/>} />
              </> 
         
-        )
+        ),
+        {
+            basename: '/fruits-store/',
+        }
     );
 
     return (
